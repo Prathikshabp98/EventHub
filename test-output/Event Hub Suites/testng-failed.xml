@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Event Hub Suites]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Event hub flow test(failed)">
+    <classes>
+      <class name="eventhub.testcases.LoginAndRegisterFlow">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginFlow" invocation-numbers="0"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- eventhub.testcases.LoginAndRegisterFlow -->
+    </classes>
+  </test> <!-- Event hub flow test(failed) -->
+</suite> <!-- Failed suite [Event Hub Suites] -->

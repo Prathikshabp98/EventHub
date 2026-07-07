@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Both Event hub and Download file]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Upload download test(failed)">
+    <classes>
+      <class name="practise.testcases.DownloadAndUploadFile">
+        <methods>
+          <include name="tearDown"/>
+          <include name="downloaduploadfileflow" invocation-numbers="0"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- practise.testcases.DownloadAndUploadFile -->
+    </classes>
+  </test> <!-- Upload download test(failed) -->
+</suite> <!-- Failed suite [Both Event hub and Download file] -->

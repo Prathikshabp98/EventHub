@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Both Event hub and Download file" parallel="tests" thread-count="5">
+
+
+  <test thread-count="5" name="Event hub flow test">
+    <classes>
+      <class name="eventhub.testcases.LoginAndRegisterFlow"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Upload download test">
+    <classes>
+      <class name="practise.testcases.DownloadAndUploadFile"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
