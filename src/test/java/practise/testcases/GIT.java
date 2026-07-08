@@ -27,7 +27,7 @@ public class GIT {
 			
 		}
 		
-		System.out.println(map);
+		System.out.println("maping");
 
 
 		
