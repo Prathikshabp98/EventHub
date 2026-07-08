@@ -28,7 +28,10 @@ public class GIT {
 		}
 		
 		System.out.println(map);
-		System.out.println("correct code");
+
+
+		System.out.print("Changes done dont want to commit");
+
 		
 		
 
