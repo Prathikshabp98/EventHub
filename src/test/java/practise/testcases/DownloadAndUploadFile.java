@@ -31,6 +31,7 @@ public class DownloadAndUploadFile extends BaseClass{
 	    
 	    //This is will cause error using direct path in firefox
 		//duf.uploadFile("C:/Users/sakha/Downloads/uploadfile.xlsx");
+	    
 		duf.downloadFile();
 	}
 	
