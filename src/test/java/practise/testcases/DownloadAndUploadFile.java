@@ -33,6 +33,8 @@ public class DownloadAndUploadFile extends BaseClass{
 		//duf.uploadFile("C:/Users/sakha/Downloads/uploadfile.xlsx");
 	    
 		duf.downloadFile();
+		System.out.println("hello");
+		
 	}
 	
 	
