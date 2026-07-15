@@ -29,7 +29,7 @@ public class GIT {
 		
 		System.out.println("maping");
 		
-		System.out.println("Created develop branch");
+		System.out.println("Created appium branch");
 
 
 		
