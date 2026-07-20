@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-20T18:52:39 IST" name="Only event hub" finished-at="2026-07-20T18:52:45 IST" duration-ms="6504">
+  <suite started-at="2026-07-20T19:17:27 IST" name="Only event hub" finished-at="2026-07-20T19:17:35 IST" duration-ms="8441">
     <groups>
     </groups>
-    <test started-at="2026-07-20T18:52:39 IST" name="Just event hub" finished-at="2026-07-20T18:52:45 IST" duration-ms="6504">
+    <test started-at="2026-07-20T19:17:27 IST" name="Just event hub" finished-at="2026-07-20T19:17:35 IST" duration-ms="8441">
       <class name="eventhub.testcases.LoginAndRegisterFlow">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:eventhub.testcases.LoginAndRegisterFlow@2f01783a]" started-at="2026-07-20T18:52:39 IST" name="initializeDriver" finished-at="2026-07-20T18:52:40 IST" duration-ms="1486" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:eventhub.testcases.LoginAndRegisterFlow@2f01783a]" started-at="2026-07-20T19:17:27 IST" name="initializeDriver" finished-at="2026-07-20T19:17:29 IST" duration-ms="2108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="loginFlow(java.util.HashMap)[pri:0, instance:eventhub.testcases.LoginAndRegisterFlow@2f01783a]" started-at="2026-07-20T18:52:41 IST" name="loginFlow" data-provider="getData" finished-at="2026-07-20T18:52:45 IST" duration-ms="4308" status="PASS">
+        <test-method signature="loginFlow(java.util.HashMap)[pri:0, instance:eventhub.testcases.LoginAndRegisterFlow@2f01783a]" started-at="2026-07-20T19:17:29 IST" name="loginFlow" data-provider="getData" finished-at="2026-07-20T19:17:35 IST" duration-ms="5321" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFlow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:eventhub.testcases.LoginAndRegisterFlow@2f01783a]" started-at="2026-07-20T18:52:45 IST" name="tearDown" finished-at="2026-07-20T18:52:45 IST" duration-ms="331" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eventhub.testcases.LoginAndRegisterFlow@2f01783a]" started-at="2026-07-20T19:17:35 IST" name="tearDown" finished-at="2026-07-20T19:17:35 IST" duration-ms="444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
