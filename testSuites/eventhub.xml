@@ -3,6 +3,12 @@
 <suite name="Only event hub">
 
 
+<listeners>
+<listener class-name="eventhub.baseutility.Listeners"></listener>
+</listeners>
+
+
+
   <test thread-count="5" name="Just event hub">
     <classes>
       <class name="eventhub.testcases.LoginAndRegisterFlow"/>
