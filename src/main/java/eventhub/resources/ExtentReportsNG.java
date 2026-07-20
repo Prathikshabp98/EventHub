@@ -8,6 +8,7 @@ public class ExtentReportsNG {
 	public static  ExtentReports getReportObject()
 	{
 		String path =  System.getProperty("user.dir")+"\\reports\\eventhub.html";
+		System.out.println("===== EXTENT REPORT PATH: " + path + " =====");   
 		ExtentSparkReporter reporter= new ExtentSparkReporter(path);
 		reporter.config().setReportName("Event HUB Automation Test Results");
 		reporter.config().setDocumentTitle("Automation report of Event Hub");
